@@ -13,7 +13,7 @@ namespace BotBitsExt.Physics
         /// </summary>
         /// <value>The physics world.</value>
         [UsedImplicitly]
-        public PhysicsWorld PhysicsWorld { get; private set; }
+        public PhysicsWorld PhysicsWorld { get; set; }
 
         public PhysicsService()
         {
